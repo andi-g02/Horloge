@@ -12,12 +12,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #2f363e;
+    background: #334631;
 }
 
 .container {
     position: relative;
-    background:#2f363e;
+    background:#334631;
     /* min-height: 500px; */
     border-radius: 20px;
     border-top-left-radius: 225px;
@@ -37,7 +37,7 @@ body {
     position: relative;
     width: 450px;
     height: 450px;
-    background: #2f363e;
+    background: #334631;
     border-radius: 50%;
     box-shadow: 10px 50px 70px rgba(0, 0, 0, 0.25),
     inset 5px 5px 10px rgba(0, 0, 0, 0.5),
@@ -54,7 +54,7 @@ body {
     position: absolute;
     width: 8px;
     height: 8px;
-    background: #2f363e;
+    background: #334631;
     border: 3px solid #fff;
     border-radius: 50%;
     z-index: 100000;
@@ -63,7 +63,7 @@ body {
 .clock span {
     position: absolute;
     inset: 20px;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     transform: rotate(calc(30deg * var(--i)));
     /* 360 / 12= 30deg */
